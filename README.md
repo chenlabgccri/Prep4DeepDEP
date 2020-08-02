@@ -26,7 +26,7 @@ Prep4DeepDEP()
 ## Inputs/outputs
 #### Inputs:
 - Single or multi-omic data (gene mutation, gene expression, DNA methylation, and CNA) of CCLs or tumors. Dimension: #genomic features by #CCLs/tumors.
-- List of DepOIs of interest with or without corresponding gene dependency data (*training*: required; *prediction*: optional). Dimension: #DepOIs by #CCLs if screening data are available for the *training* mode, or #DepOIs by 1 of gene symbols of DepOIs for the *prediction* mod.
+- List of DepOIs of interest with or without corresponding gene dependency data (*training*: required; *prediction*: optional). Dimension: #DepOIs by #CCLs if screening data are available for the *training* mode, or #DepOIs by 1 of gene symbols of DepOIs for the *prediction* mode.
 #### Outputs:
 *Prediction* mode
 - *.txt* file for each genomic data. Dimension: #genomic features by #CCLs/tumors.
