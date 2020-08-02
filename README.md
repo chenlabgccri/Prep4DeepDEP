@@ -17,14 +17,29 @@ if (!requireNamespace("devtools", quietly = TRUE))
 
 devtools::install_github("ChenLabGCCRI/Prep4DeepDEP")
 ```
+
 ## Run Prep4DeepDEP ##
 ```R
 Prep4DeepDEP()
 ```
+
+## Inputs/outputs
+#### Inputs:
+- Single or multi-omics data (gene mutation, gene expression, DNA methylation, and CNA) of CCLs or tumors. Dimension: #genomic features by #CCLs/tumors.
+- List of DepOIs of interest with or without corresponding gene dependency data (*training*: required; *prediction*: optional). Dimension: #DepOIs by #CCLs if screening data are available for the *training* mode, or #DepOIs by 1 of gene symbols of DepOIs for the *prediction* mod.
+#### Outputs:
+*Prediction* mode
+- *.txt* file for each genomic data. Dimension: #genomic features by #CCLs/tumors.
+- *.txt* file for gene fingerprints. Dimension: #fingerprint features (3,115 chemical and genetic perturbation [CGP] gene sets) by #DepOIs.
+*Training* mode
+- *.txt* file for each genomic data. Dimension: #genomic features by #CCL-DepOI pairs.
+- *.txt* file for gene fingerprints. Dimension: #fingerprint features by #CCL-DepOIs.
+
 Please refer to the manual of detailed descriptions of each input and output parameter:
 ```R
 ?Prep4DeepDEP
 ```
+Examples of the output data are availabel at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/v1). 
 
 ## Flowchart
 <img align="center" src="./sketch/Prep4DeepDEP.png?raw=true">
