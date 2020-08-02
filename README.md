@@ -40,10 +40,10 @@ Please refer to the manual of detailed descriptions of each input and output par
 ```R
 ?Prep4DeepDEP
 ```
-Examples of the output data are available at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/v1). 
 
 ## Flowchart
 <img align="center" src="./sketch/Prep4DeepDEP.png?raw=true">
+Note: examples of the output data (paths labeled in blue) are available at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/v1). 
 
 ## Reference
 Chiu YC, Zheng S, Wang LJ, Iskra BS, Rao MK, Houghton PJ, Huang Y, Chen Y.
