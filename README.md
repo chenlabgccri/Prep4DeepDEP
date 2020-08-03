@@ -46,6 +46,9 @@ Please refer to the manual of detailed descriptions of each input and output par
 
 Note: examples of the output data (paths labeled in blue) are available at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/v1).
 
+## R Version
+The functionality of this package was tested using R version xxx.
+
 ## Reference
 Chiu YC, Zheng S, Wang LJ, Iskra BS, Rao MK, Houghton PJ, Huang Y, Chen Y.
 **"DeepDEP: deep learning of a cancer dependency map using cancer genomics."**
