@@ -2,13 +2,13 @@
 
 ## Introduction
 
-*Prep4DeepDEP* is an R package to prepare the input and output data files required by the Python package of [*DeepDEP*](https://codeocean.com/capsule/3348251/tree/v1) (will be published with our manuscript). *DeepDEP* is a deep learning model that uses the baseline genomic profiles of cancer cell lines (CCLs) or tumors to predict their gene dependencies (i.e., the degree to which knocking out a gene inhibits the survival of cancer cells).
+*Prep4DeepDEP* is an R package to prepare the input and output data files required by the Python package of [*DeepDEP*](https://codeocean.com/capsule/3348251/tree/) (will be published with our manuscript). *DeepDEP* is a deep learning model that uses the baseline genomic profiles of cancer cell lines (CCLs) or tumors to predict their gene dependencies (i.e., the degree to which knocking out a gene inhibits the survival of cancer cells).
 
 *Prep4DeepDEP* generates the genomic and gene fingerprint data tables from user's datasets. *Prep4DeepDEP* has two main modes:
 - The *‘Prediction’* mode generates data for *DeepDEP* to predict gene dependency scores of unscreened CCLs or tumors. It extracts and orders the required genomic features from user’s genome-wide datasets, and generates the functional fingerprints of gene dependencies of interest (DepOIs) from a user-provided list or the default 1,298 genes we studied in the paper. For the copy number alteration (CNA) data, an embedded R function (*PrepCNA*) converts copy-number segments to bins (every 10k bases in the genome) and calculate per-bin CNA scores.
 - The *‘Training’* mode generates data to train a new *DeepDEP* model using user's genome-wide genomic data and gene dependency scores from an in-house CRISPR screening experiment. It creates data tables of genomics and gene dependencies for all CCL-DepOI pairs (number of samples = number of CCLs x number of DepOIs). Functional fingerprints are generated based on the list of genes available in the gene dependency dataset.
 
-Please refer to the paper and [*DeepDEP* package](https://codeocean.com/capsule/3348251/tree/v1) about how to use the generated data tables for DeepDEP model training and prediction.
+Please refer to the paper and [*DeepDEP* package](https://codeocean.com/capsule/3348251/tree/) about how to use the generated data tables for DeepDEP model training and prediction.
 
 ## Installation from GitHub ##
 ```R
@@ -44,7 +44,7 @@ Please refer to the manual of detailed descriptions of each input and output par
 ## Flowchart
 <img align="center" src="./sketch/Prep4DeepDEP.png?raw=true">
 
-Note: examples of the output data (paths labeled in blue) are available at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/v1).
+Note: examples of the output data (paths labeled in blue) are available at the [*DeepDEP* repository](https://codeocean.com/capsule/3348251/tree/).
 
 ## R Version
 The functionality of this package was tested using R version xxx.
