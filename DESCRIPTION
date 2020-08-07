@@ -1,0 +1,12 @@
+Package: Prep4DeepDEP
+Type: Package
+Title: Prep4DeepDEP: an R Package to Prepare Data for DeepDEP
+Version: 0.1.0
+Author: Li-Ju Wang, Yu-Chiao Chiu, Yidong Chen
+Maintainer: Yidong Chen <ChenY8@uthscsa.edu>
+Description: Prep4DeepDEP is an R package to prepare the input and output data files required by the Python package of DeepDEP (https://codeocean.com/capsule/3348251/tree/). DeepDEP is a deep learning model that uses the baseline genomic profiles of cancer cell lines (CCLs) or tumors to predict their gene dependencies (i.e., the degree to which knocking out a gene inhibits the survival of cancer cells).
+    Please refer to the paper and DeepDEP package about how to use the generated data tables for DeepDEP model training and prediction.
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1.9000
