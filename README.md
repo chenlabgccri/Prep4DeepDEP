@@ -30,7 +30,7 @@ Prep4DeepDEP <- function(exp.data = NULL, mut.data = NULL,
 Please see the examples in the example.r file:
 ```R
 path <- system.file("examples/",package = "Prep4DeepDEP")
-file.edit(paste0(Path,"example.r"))
+file.edit(paste0(path,"example.r"))
 ```
 
 ## Inputs/outputs
