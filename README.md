@@ -27,6 +27,7 @@ Prep4DeepDEP <- function(exp.data = NULL, mut.data = NULL,
 ```
 
 ## Examples ##
+Please see the examples in the example.r file:
 ```R
 path <- system.file("examples/",package = "Prep4DeepDEP")
 file.edit(paste0(Path,"example.r"))
