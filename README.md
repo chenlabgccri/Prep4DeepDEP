@@ -61,4 +61,4 @@ The functionality of this package was developed and tested using R version 3.6.1
 
 ## Reference
 Chiu YC, Zheng S, Wang LJ, Iskra BS, Rao MK, Houghton PJ, Huang Y, Chen Y.
-**"DeepDEP: deep learning of a cancer dependency map using cancer genomics." In review.
+**"DeepDEP: deep learning of a cancer dependency map using cancer genomics."** In review.
